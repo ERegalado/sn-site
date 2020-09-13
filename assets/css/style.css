@@ -1602,3 +1602,7 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+.card-custom {
+  max-width: 128px;
+}
