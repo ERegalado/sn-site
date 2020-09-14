@@ -1606,3 +1606,10 @@ section {
 .card-custom {
   max-width: 128px;
 }
+
+@media screen and (max-width: 391px) {
+  #techs {
+    display: flex;
+    justify-content: center;
+  }
+}
