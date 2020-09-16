@@ -208,4 +208,14 @@
     aos_init();
   });
 
+  let x = document.getElementById("service2");
+
+  x.onmouseover = function() {
+    document.getElementById("bestPractices").className = "text-warning";
+  };
+
+  x.onmouseout = function() {
+    document.getElementById("bestPractices").className = "";
+  };
+
 })(jQuery);
