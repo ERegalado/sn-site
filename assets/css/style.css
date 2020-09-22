@@ -1623,6 +1623,7 @@ section {
 
 .card-custom {
   max-width: 128px;
+  max-height:128px;
 }
 
 @media screen and (max-width: 391px) {
